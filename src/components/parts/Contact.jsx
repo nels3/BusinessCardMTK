@@ -10,19 +10,17 @@ const Contact = () => {
   return (
     <>
       <Title title="Kontakt" />
+
       <Container>
         <Row>
-          <Col>Regon: 520999544 NIP: 5223217584</Col>
-
+          <Col>Regon: 520999544 </Col>
+          <Col> NIP: 5223217584</Col>
           <Col>
             <SocialIcon
               target="_blank"
               url="www.github.com"
               href="https://github.com/mice5"
             />
-          </Col>
-          <Col>
-            <h6>mice5</h6>
           </Col>
           <Col>
             <SocialIcon
@@ -32,17 +30,11 @@ const Contact = () => {
             />
           </Col>
           <Col>
-            <h6>mroz-mateusz</h6>
-          </Col>
-          <Col>
             <SocialIcon
               target="_blank"
               url="www.youtube.com"
               href="https://www.youtube.com/@mrozu1337"
             />
-          </Col>
-          <Col>
-            <h6>mrozu1337</h6>
           </Col>
         </Row>
       </Container>
