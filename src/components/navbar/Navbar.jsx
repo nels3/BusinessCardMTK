@@ -13,7 +13,7 @@ const ScrollNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavbarLink to="main" title="Strona główna" />
+            <NavbarLink to="main" title="Start" />
             <NavbarLink to="aboutMe" title="O mnie" />
             <NavbarLink to="projects" title="Projekty" />
             <NavbarLink to="gallery" title="Galeria" />
