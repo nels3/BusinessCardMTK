@@ -1,13 +1,9 @@
 import React from "react";
 
-const Start = ({ title = "" }) => {
+const Start = () => {
   return (
     <>
-      <img
-        src="img/tloo3.png"
-        alt="Start"
-        style={{ width: "100vw", height: "55vh" }}
-      />
+      <img src="img/tloo4.png" alt="Start" style={{ width: "100vw" }} />
     </>
   );
 };

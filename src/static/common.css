@@ -15,3 +15,13 @@
   background: black;
 }
 
+
+.footer {
+  display: block;
+  width: 100vw;
+  height: 6vh;
+  background: black;
+  margin-top: 2vh;
+  color:blueviolet;
+  padding-right:5vw;
+}

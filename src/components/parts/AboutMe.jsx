@@ -20,7 +20,7 @@ const AboutMe = () => {
             />
           </Col>
           <Col>
-            <Accordion defaultActiveKey="0">
+            <Accordion>
               <h3>mgr. inż. Mateusz Mróz</h3>
               <h5>C/C++ MCU Software Developer for UAV/UAS</h5>
               <div style={{ paddingLeft: "20px", paddingTop: "20px" }} />
