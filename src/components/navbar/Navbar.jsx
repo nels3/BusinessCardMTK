@@ -13,10 +13,11 @@ const ScrollNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavbarLink to="test1" title="Test 1" />
-            <NavbarLink to="test2" title="Test 2" />
-            <NavbarLink to="test3" title="Test 3" />
-            <NavbarLink to="test4" title="Test 4" />
+            <NavbarLink to="main" title="Strona główna" />
+            <NavbarLink to="aboutMe" title="O mnie" />
+            <NavbarLink to="projects" title="Projekty" />
+            <NavbarLink to="gallery" title="Galeria" />
+            <NavbarLink to="contact" title="Kontakt" />
           </Nav>
         </Navbar.Collapse>
       </Container>

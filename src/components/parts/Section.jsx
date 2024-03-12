@@ -1,11 +1,4 @@
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-} from "react-scroll";
+import { Element } from "react-scroll";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 

@@ -2,9 +2,16 @@
   width: 100vw;;
 }
 
+.title{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 4vw;
+}
+
 .rectangle {
   display: inline-block;
-  width: 100vw;;
+  width: 70vw;
   height: 400px;
   background: black;
 }
+
