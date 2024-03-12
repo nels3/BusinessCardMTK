@@ -20,8 +20,8 @@ function App () {
   return (
     <div className='app'>
       <Navbar />
+      <Section name='main' child={<Start />}></Section>
       <div style={{ marginLeft: '15vw', marginRight: '15vw' }}>
-        <Section name='main' child={<Start />}></Section>
         <Section name='aboutMe' child={<AboutMe />}></Section>
         <Section name='projects' child={<Intro title='TODO' />}></Section>
         <Section name='gallery' child={<Gallery />}></Section>

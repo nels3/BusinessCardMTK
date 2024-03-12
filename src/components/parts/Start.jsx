@@ -3,7 +3,11 @@ import React from "react";
 const Start = ({ title = "" }) => {
   return (
     <>
-      <div className="rectangle" />
+      <img
+        src="img/tloo3.png"
+        alt="Start"
+        style={{ width: "100vw", height: "55vh" }}
+      />
     </>
   );
 };
