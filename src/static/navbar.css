@@ -1,0 +1,17 @@
+.navbar{
+  width: 100vw;
+}
+
+.navbar_active{
+    color: white !important;
+    background-color: grey;
+}
+
+.navbar_link{
+    color: bisque;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
