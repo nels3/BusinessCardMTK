@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Section({ name = "", child }) {
   return (
-    <Element name={name} className="element">
+    <Element name={name} className="element" style={{ marginTop: "5vh" }}>
       {child}
     </Element>
   );

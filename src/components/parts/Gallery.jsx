@@ -5,7 +5,7 @@ import Title from "src/components/parts/Title";
 
 import "react-gallery-carousel/dist/index.css";
 
-const images = [1, 2, 3].map((number) => ({
+const images = [1, 2, 3, 4, 5, 6].map((number) => ({
   src: `img/${number}.jpg`,
 }));
 
@@ -17,8 +17,7 @@ const Gallery = () => {
         images={images}
         isAutoPlaying={true}
         autoPlayInterval={4000}
-        hasCaptions={true}
-        style={{ width: "70vw" }}
+        style={{ height: "90vh", width: "90vh" }}
       />
     </div>
   );

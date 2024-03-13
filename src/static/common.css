@@ -6,15 +6,8 @@
   padding-top: 2vh;
   padding-bottom: 2vh;
   padding-left: 4vw;
+  color: black
 }
-
-.rectangle {
-  display: inline-block;
-  width: 70vw;
-  height: 400px;
-  background: black;
-}
-
 
 .footer {
   display: block;
@@ -24,4 +17,12 @@
   margin-top: 2vh;
   color:blueviolet;
   padding-right:5vw;
+}
+
+.offcanvas{
+     width:80% !important;
+} 
+
+.video_div{
+  padding-top:10px;
 }
