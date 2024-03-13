@@ -17,7 +17,7 @@ const Gallery = () => {
         images={images}
         isAutoPlaying={true}
         autoPlayInterval={4000}
-        style={{ height: "90vh", width: "90vh" }}
+        style={{ height: "50vw", width: "50vw" }}
       />
     </div>
   );
