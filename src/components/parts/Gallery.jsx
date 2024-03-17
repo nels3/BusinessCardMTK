@@ -5,7 +5,7 @@ import Title from "src/components/parts/Title";
 
 import "react-gallery-carousel/dist/index.css";
 
-const images = [1, 2, 3, 4, 5, 6].map((number) => ({
+const images = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((number) => ({
   src: `img/${number}.jpg`,
 }));
 

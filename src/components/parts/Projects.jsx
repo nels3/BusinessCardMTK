@@ -61,7 +61,7 @@ const Projects = () => {
           <Row>
             {projects.map((project, index) => (
               <Col style={{ paddingTop: "10px" }}>
-                <Card style={{ width: "30vw" }}>
+                <Card style={{ minWidth: "30vw" }}>
                   <Card.Img variant="top" src={project.src} />
                   <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
